@@ -373,6 +373,7 @@ p {
   font: bold 5em "Marcellus", serif, "Manrope", sans-serif;
   text-align: center;
   user-select: none;
+  font-family: "gallery_modernregular";
 }
 @media (max-width: 767px) {
   .preloader .animation-preloader .txt-loading {
@@ -762,6 +763,8 @@ input.main-search-input::placeholder {
   border: 1px solid rgba(77, 77, 77, 0.14);
   background: #fff;
   position: relative;
+  font-family: "gallery_modernregular";
+  font-weight: 600;
 }
 .section-title .sub-title .dot {
   width: 18px;
@@ -896,10 +899,6 @@ input.main-search-input::placeholder {
 
 .section-bg-4 {
   background-color: var(--black-3);
-}
-
-.section-bg-5 {
-  background-color: var(--black-2);
 }
 
 .breadcrumb-bg {
@@ -5273,7 +5272,7 @@ input.main-search-input::placeholder {
   }
 }
 .work-1 p {
-  max-width: 35%;
+  max-width: 70%;
   margin: 0 auto;
 }
 @media (max-width: 991px) {
@@ -5298,7 +5297,7 @@ input.main-search-input::placeholder {
   }
 }
 .work-1 .work-card.style-2 {
-  margin-top: 200px;
+  margin-top: 20px;
 }
 @media (max-width: 767px) {
   .work-1 .work-card.style-2 {
@@ -5347,8 +5346,7 @@ input.main-search-input::placeholder {
   }
 }
 .work-1 .work-card .thumb {
-  width: 520px;
-  height: 710px;
+  height: 450px;
   position: relative;
 }
 @media (max-width: 1600px) {
@@ -7355,7 +7353,7 @@ input.main-search-input::placeholder {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  height: 640px;
+  height: 350px;
 }
 .news-2 .single-news-item .content {
   margin-top: 20px;
@@ -7386,7 +7384,7 @@ input.main-search-input::placeholder {
   color: var(--white);
 }
 .news-2 .single-news-item .content h3 a {
-  color: var(--white);
+  color: var(--theme-2);
   background: linear-gradient(to right, currentcolor 0%, currentcolor 100%) 0px
     95%/0px 1px no-repeat;
   transition: all 500ms ease;
