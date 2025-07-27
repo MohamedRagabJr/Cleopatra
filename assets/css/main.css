@@ -906,16 +906,16 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 130px 0;
+  padding: 70px 0;
 }
 @media (max-width: 1199px) {
   .section-padding {
-    padding: 100px 0;
+    padding: 50px 0;
   }
 }
 @media (max-width: 991px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 20px 0;
   }
 }
 
@@ -2324,8 +2324,8 @@ input.main-search-input::placeholder {
   position: relative;
   overflow: hidden;
   z-index: 9;
-  padding-top: 240px;
-  padding-bottom: 150px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 @media (max-width: 991px) {
   .breadcrumb-wrapper {
@@ -2338,11 +2338,11 @@ input.main-search-input::placeholder {
 .breadcrumb-wrapper .title h1 {
   color: var(--theme);
   font-family: "gallery_modernregular";
-  font-size: 250px;
+  font-size: 220px;
   font-style: normal;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: -12.5px;
+  letter-spacing: -15.5px;
 }
 .breadcrumb-wrapper .title h1 span:nth-child(1) {
   margin-left: -350px;
@@ -2474,7 +2474,16 @@ input.main-search-input::placeholder {
   object-fit: cover;
   border-radius: 50%;
 }
-
+.signle-contact-widgets {
+}
+.signle-contact-widgets h3 {
+}
+.signle-contact-widgets .icon {
+}
+.signle-contact-widgets h5 {
+}
+.signle-contact-widgets h5 a {
+}
 .error-wrapper {
   padding-top: 225px;
   padding-bottom: 105px;
@@ -3260,6 +3269,9 @@ input.main-search-input::placeholder {
   transition: all 0.4s ease-in-out;
   color: var(--theme-2);
 }
+.hero-3 .social a:hover img {
+  filter: brightness(0);
+}
 .hero-3 .social a:nth-child(1),
 .hero-3 .social a:nth-child(4) {
   margin-left: -30px;
@@ -3386,13 +3398,7 @@ input.main-search-input::placeholder {
   z-index: -1;
   box-shadow: rgba(255, 255, 255, 0.2) 0px 7px 29px 0px;
 }
-@media (max-width: 1600px) {
-  .hero-3 .hero-image {
-    width: 950px;
-    height: 850px;
-    margin-top: 85px;
-  }
-}
+
 @media (max-width: 1399px) {
   .hero-3 .hero-image {
     margin-left: -100px;
@@ -3904,17 +3910,17 @@ input.main-search-input::placeholder {
   }
 }
 .about-1 .about-content .title {
-  text-indent: 100px;
   font-size: 38px;
   max-width: 880px;
   text-transform: unset;
-  padding-bottom: 45px;
+  padding-bottom: 15px;
   overflow: hidden;
+  color: var(--theme-2);
 }
 .typed-element,
 .typed-cursor {
   color: var(--theme-2) !important;
-  font-size: 26px !important;
+  font-size: 22px !important;
 }
 @media (max-width: 767px) {
   .about-1 .about-content .title {
@@ -3930,9 +3936,9 @@ input.main-search-input::placeholder {
     line-height: 40px;
   }
 }
-.about-1 .about-content .text {
+/* .about-1 .about-content .text {
   max-width: 65%;
-}
+} */
 @media (max-width: 767px) {
   .about-1 .about-content .text {
     max-width: 100%;
@@ -7004,6 +7010,11 @@ input.main-search-input::placeholder {
   width: 835px;
   height: 810px;
 }
+.brand-wrapper .section-title,
+.contact-us-1 .section-title {
+  margin-inline-start: 0;
+  transform: none;
+}
 @media (max-width: 1199px) {
   .contact-us-1 .image {
     float: none;
@@ -7072,7 +7083,7 @@ input.main-search-input::placeholder {
 }
 .contact-us-1 .contact-right .theme-btn {
   padding: 18px 30px;
-  background: linear-gradient(90deg, #864ff5 0.81%, #2b1556 100.81%);
+  background: linear-gradient(90deg, #e2c46a 0.81%, #a78b37 100.81%);
 }
 .contact-us-1 .social-icon {
   padding-top: 50px;
@@ -7106,6 +7117,9 @@ input.main-search-input::placeholder {
   background-color: var(--theme);
   color: var(--white);
   border-color: var(--theme);
+}
+.contact-us-1 .social-icon a:hover img {
+  filter: brightness(10);
 }
 .contact-us-1.style-2 {
   position: relative;
@@ -9362,11 +9376,10 @@ input.main-search-input::placeholder {
 
 .footer-1 {
   position: relative;
-  padding-top: 305px;
 }
 .footer-1 .shape-1 {
   position: absolute;
-  top: 50px;
+  top: -35px;
   left: -50px;
   opacity: 26%;
   animation: zoomBig 4s infinite linear;
@@ -9378,7 +9391,7 @@ input.main-search-input::placeholder {
 }
 .footer-1 .shape-2 {
   position: absolute;
-  top: 190px;
+  top: -35px;
   right: -160px;
   opacity: 26%;
   animation: zoomBig 4s infinite linear;
@@ -9391,6 +9404,7 @@ input.main-search-input::placeholder {
 .footer-1 .footer-logo img {
   max-width: 100%;
   height: auto;
+  mix-blend-mode: multiply;
 }
 @media (max-width: 991px) {
   .footer-1 .newsletter {
@@ -9398,18 +9412,17 @@ input.main-search-input::placeholder {
   }
 }
 .footer-1 .signle-footer-widgets .icon {
-  font-size: 32px;
+  font-size: 25px;
   color: var(--theme);
-  padding-bottom: 15px;
+  padding-inline-end: 15px;
 }
 .footer-1 .signle-footer-widgets span {
   color: var(--text-2);
 }
 .footer-1 .signle-footer-widgets h5 {
   color: var(--theme);
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
-  margin-top: 5px;
 }
 .footer-1.style-2 {
   padding-top: 130px;
@@ -9991,6 +10004,9 @@ input.main-search-input::placeholder {
 .footer-bottom .inner p {
   font-weight: 500;
 }
+.footer-bottom .inner p a {
+  color: var(--theme-2);
+}
 .footer-bottom.style-2 {
   padding-top: 60px;
 }
@@ -10023,4 +10039,4 @@ input.main-search-input::placeholder {
   background-color: var(--theme);
   color: var(--white);
   border-color: var(--theme);
-}
+} 
