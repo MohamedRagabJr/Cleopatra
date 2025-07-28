@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--<< Header Area >>-->
+
+  <head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- ======== Page title ============ -->
+    <title>Cleopatra Deluxe Mall</title>
+    <!--<< Favicon >>-->
+    <link rel="shortcut icon" href="./assets/img/logo/fav.png" />
+    <!--<< Bootstrap min.css >>-->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <!--<< Font Awesome.css >>-->
+    <link rel="stylesheet" href="./assets/css/font-awesome.css" />
+    <!--<< Animate.css >>-->
+    <link rel="stylesheet" href="./assets/css/animate.css" />
+    <!--<< Magnific Popup.css >>-->
+    <link rel="stylesheet" href="./assets/css/magnific-popup.css" />
+    <!--<< MeanMenu.css >>-->
+    <link rel="stylesheet" href="./assets/css/meanmenu.css" />
+    <!--<< Jquery.css >>-->
+    <link rel="stylesheet" href="./assets/css/jquery-ui.css" />
+    <!--<< Swiper Bundle.css >>-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css" />
+    <!--<< Nice Select.css >>-->
+    <link rel="stylesheet" href="./assets/css/nice-select.css" />
+    <!--<< Main.css >>-->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+  </head>
+
+  <body>
+    <div id="custom-cursor-wrapper" class="tp-cursor">
+      <div id="cursor-outer">
+        <div id="cursorDot"></div>
+      </div>
+    </div>
+    <!-- Back To Top Start -->
+    <div class="scroll-up">
+      <svg
+        class="scroll-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- Preloader Start -->
+    <div id="preloader" class="preloader">
+      <div class="animation-preloader">
+        <div class="spinner"></div>
+        <div class="txt-loading">
+          <span data-text-preloader="C" class="letters-loading"> C </span>
+          <span data-text-preloader="l" class="letters-loading"> l </span>
+          <span data-text-preloader="e" class="letters-loading"> e </span>
+          <span data-text-preloader="o" class="letters-loading"> o </span>
+          <span data-text-preloader="p" class="letters-loading"> p </span>
+          <span data-text-preloader="a" class="letters-loading"> a </span>
+          <span data-text-preloader="t" class="letters-loading"> t </span>
+          <span data-text-preloader="r" class="letters-loading"> r </span>
+          <span data-text-preloader="a" class="letters-loading"> a </span>
+        </div>
+        <p class="text-center">Loading</p>
+      </div>
+      <div class="loader">
+        <div class="row">
+          <div class="col-3 loader-section section-left">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-left">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-right">
+            <div class="bg"></div>
+          </div>
+          <div class="col-3 loader-section section-right">
+            <div class="bg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Offcanvas Area Start -->
+    <div class="fix-area">
+      <div class="offcanvas__info">
+        <div class="offcanvas__wrapper">
+          <div class="offcanvas__content">
+            <div
+              class="offcanvas__top mb-5 d-flex justify-content-between align-items-center"
+            >
+              <div class="offcanvas__logo">
+                <a href="index.html">
+                  <img src="assets/img/logo/logo.png" alt="logo-img" />
+                </a>
+              </div>
+              <div class="offcanvas__close">
+                <button>
+                  <i class="fal fa-times"></i>
+                </button>
+              </div>
+            </div>
+            <div class="mobile-menu fix mb-3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="offcanvas__overlay"></div>
+
+    <!-- Header Section Start -->
+    <header>
+      <div id="header-sticky" class="header-1">
+        <div class="container-fluid">
+          <div class="mega-menu-wrapper">
+            <div class="header-main">
+              <div class="header-left">
+                <div class="logo">
+                  <a href="index.html" class="header-logo">
+                    <img src="assets/img/logo/logo.png" alt="logo-img" />
+                  </a>
+                </div>
+              </div>
+              <div class="header-right">
+                <div class="mean__menu-wrapper">
+                  <div class="main-menu">
+                    <nav id="mobile-menu">
+                      <ul>
+                        <li class="active">
+                          <a href="index.html"> Mall </a>
+                        </li>
+                        <li>
+                          <a href="about.html"> About Us </a>
+                        </li>
+                        <li>
+                          <a href="location.html"> Location </a>
+                        </li>
+                        <li>
+                          <a href="services.html"> Services </a>
+                        </li>
+                        <li>
+                          <a href="be-part-of-us.html"> Be Part of Us </a>
+                        </li>
+
+                        <li>
+                          <a href="contact.html">Contact</a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+                <div class="header__hamburger my-auto d-xl-none">
+                  <div class="sidebar__toggle">
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div id="smooth-wrapper">
+      <div id="smooth-content">
+        <section class="breadcrumb-wrapper about-page">
+          <div class="container-fluid">
+            <div class="title">
+              <h1>
+                <span> Countless </span>
+                <br />
+                <img src="./assets/img/logo/bread2.jpg" alt="" />
+                <span> Services</span>
+              </h1>
+            </div>
+          </div>
+        </section>
+        <!-- About Section Start -->
+        <section class="about-wrapper about-1 section-padding">
+          <div class="about-arrow">
+            <svg
+              width="221"
+              height="231"
+              viewBox="0 0 221 231"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="arrow-path"
+                d="M19.5391 230.256C-23.4734 146.16 16.1024 15.262 85.7648 82.9955C129.24 125.267 25.8908 112.384 61.9046 58.117C90.7158 14.7032 173.195 9.5528 210.833 12.4046L186.879 31.6248C197.154 26.8738 217.92 16.4044 218.787 12.5339C219.654 8.66335 196.252 4.00447 184.442 2.15841"
+                stroke="currentColor"
+                stroke-width="3"
+              />
+            </svg>
+          </div>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-6">
+                <div class="about-image has_fade_anim">
+                  <img
+                    src="assets/img/technology/serv.jpg"
+                    alt=""
+                    class="wow fadeInLeft"
+                    data-wow-delay="200ms"
+                  />
+                </div>
+              </div>
+              <div class="col-xl-6 col-lg-12 col-12">
+                <div class="about-content">
+                  <div class="info-section mt-4">
+                    <div class="section-title m-0 transform-0">
+                      <div class="sub-title mb-3">
+                        <div class="dot"></div>
+
+                        <h4 class="has_text_move_anim">A MIX OF services</h4>
+
+                        <div class="typed-container d-flex">
+                          <div class="typed-element"></div>
+                          <div class="typed-strings" style="display: none">
+                            <p>FOR EVERY</p>
+                            <p>CUSTOMER'S NEED</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <ul class="service-list">
+                      <li>
+                        <img src="assets/img/icon/icon_1-1.png" alt="" />
+                        Largest fountain aquatic show in Egypt
+                      </li>
+                      <li>
+                        <img src="assets/img/icon/icon_diamond-1.png" alt="" />
+                        Prestigious premium court
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icon/icon_shoppingbag-1.png"
+                          alt=""
+                        />
+                        Over 300 shops
+                      </li>
+                      <li>
+                        <img src="assets/img/icon/icon_posate-1.png" alt="" />
+                        Fine dining destinations
+                      </li>
+                      <li>
+                        <img src="assets/img/icon/icon_ciak-1.png" alt="" />
+                        Massive multiplex cinema complex
+                      </li>
+                      <li>
+                        <img src="assets/img/icon/icon_cart-1.png" alt="" />
+                        Hypermarket
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icon/icon_foodcourt-1.png"
+                          alt=""
+                        />
+                        Food court with more than 2000 seats
+                      </li>
+                      <li>
+                        <img
+                          src="assets/img/icon/iconanchorstore-1.png"
+                          alt=""
+                        />
+                        More than 4 anchor stores
+                      </li>
+                      <li>
+                        <img src="assets/img/icon/icon_depstore-1.png" alt="" />
+                        Department store
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Brand Section Start -->
+        <section class="brand-wrapper brand-1 section-padding">
+          <div class="container">
+            <div class="section-title text-center mb-5 pb-4">
+              <div class="sub-title">
+                <div class="dot"></div>
+
+                <h4 class="has_text_move_anim">My</h4>
+
+                <div class="typed-container d-flex">
+                  <div class="typed-element"></div>
+                  <div class="typed-strings" style="display: none">
+                    <p>Partners</p>
+                    <p>&</p>
+                    <p>Brands</p>
+                  </div>
+                </div>
+              </div>
+              <h2 class="tp-char-animation">
+                Worked with Global <br />
+                Largest Brands
+              </h2>
+            </div>
+            <div class="brand-inner">
+              <div class="swiper brand-slider" dir="rtl">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/01.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/02.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/03.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/04.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/05.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/06.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="brand-inner border-top-0">
+              <div class="swiper brand-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/07.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/08.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/09.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/10.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/11.png" alt="" />
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="brand-logo">
+                      <img src="assets/img/brand/12.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- About Section Start -->
+        <section class="about-wrapper about-1 section-padding">
+          <div class="about-arrow">
+            <svg
+              width="221"
+              height="231"
+              viewBox="0 0 221 231"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="arrow-path"
+                d="M19.5391 230.256C-23.4734 146.16 16.1024 15.262 85.7648 82.9955C129.24 125.267 25.8908 112.384 61.9046 58.117C90.7158 14.7032 173.195 9.5528 210.833 12.4046L186.879 31.6248C197.154 26.8738 217.92 16.4044 218.787 12.5339C219.654 8.66335 196.252 4.00447 184.442 2.15841"
+                stroke="currentColor"
+                stroke-width="3"
+              />
+            </svg>
+          </div>
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-xl-6 col-lg-12 col-12 mt-5">
+                <div class="info-section mt-4">
+                  <div class="section-title m-0 transform-0">
+                    <div class="sub-title mb-3">
+                      <div class="dot"></div>
+
+                      <h4 class="has_text_move_anim">Bespoke</h4>
+
+                      <div class="typed-container d-flex">
+                        <div class="typed-element"></div>
+                        <div class="typed-strings" style="display: none">
+                          <p>Services</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <ul class="service-list">
+                    <li>
+                      <img src="assets/img/icon/icon_car-1.png" alt="" /> Valet
+                      parking and car valeting service
+                    </li>
+                    <li>
+                      <img src="assets/img/icon/icon_drink-1.png" alt="" /> VIP
+                      Lounge
+                    </li>
+                    <li>
+                      <img src="assets/img/icon/icon_cross-1.png" alt="" />
+                      Nursery and Medical Centre
+                    </li>
+                    <li>
+                      <img src="assets/img/icon/icon_wifi-1.png" alt="" /> Wi-Fi
+                      Hotspots
+                    </li>
+                    <li>
+                      <img src="assets/img/icon/icon_tickets-1.png" alt="" />
+                      465 shows and events per year
+                    </li>
+                    <li>
+                      <img src="assets/img/icon/icon_slide-1.png" alt="" /> Kids
+                      Park
+                    </li>
+                    <li>
+                      <img src="assets/img/icon/icon_temple-1.png" alt="" />
+                      Bank branches
+                    </li>
+                    <li>
+                      <img src="assets/img/icon/icon_temple2-1.png" alt="" />
+                      Mosque
+                    </li>
+                    <li>
+                      <img src="assets/img/icon/icon_tv-1.png" alt="" /> TV
+                      Studio
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-6 mt-5">
+                <div class="about-image has_fade_anim">
+                  <img
+                    src="assets/img/logo/bread2.jpg"
+                    alt=""
+                    class="wow fadeInLeft"
+                    data-wow-delay="200ms"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- Footer Section Start -->
+        <footer
+          class="footer-wrapper footer-1 section-padding pb-0 section-bg-2"
+        >
+          <div class="shape">
+            <img src="assets/img/shape/shape-11.png" alt="" class="shape-1" />
+            <img src="assets/img/shape/shape-11.png" alt="" class="shape-2" />
+          </div>
+          <div class="container">
+            <div class="footer-widgets-inner">
+              <div class="row">
+                <div
+                  class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp"
+                  data-wow-delay="200ms"
+                >
+                  <div class="signle-footer-widgets mt-5">
+                    <ul>
+                      <li><a href="index.html">The Mall</a></li>
+                      <li><a href="services.html">Services</a></li>
+                      <li><a href="location.html">Location</a></li>
+                      <li><a href=be-part-of-us.html">Be Part of Us</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                  data-wow-delay="400ms"
+                >
+                  <div class="signle-footer-widgets mt-5 ps-xl-5">
+                    <ul>
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                      <li>
+                        <a href="https://www.groupcleopatra.com/en/"
+                          >Cleopatra Group</a
+                        >
+                      </li>
+                      <li>
+                        <a href="https://www.cleopatradevelopments.com/en"
+                          >Cleopatra Real Estate</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
+                  data-wow-delay="600ms"
+                >
+                  <div class="signle-footer-widgets mt-5 ps-xl-3">
+                    <div class="d-flex align-items-center mb-1">
+                      <div class="icon"><i class="fal fa-envelope"></i></div>
+                      <span>Mail Me : </span>
+                      <h5>
+                        <a href="mailto:info@cleopatradevelopments.com"
+                          >info@cleopatradevelopments.com</a
+                        >
+                      </h5>
+                    </div>
+                    <div class="d-flex align-items-center mb-1">
+                      <div class="icon">
+                        <i class="fal fa-map-marker-alt"></i>
+                      </div>
+                      <span>My Location : </span>
+                      <h5>
+                        <a href="https://maps.app.goo.gl/vks1pvGikKtcXNQq5">
+                          First Al Sheikh Zayed, 6th Of October Giza Governorate
+                        </a>
+                      </h5>
+                    </div>
+                    <div class="d-flex align-items-center mb-1">
+                      <div class="icon"><i class="fal fa-phone-alt"></i></div>
+                      <span>Phone Number : </span>
+                      <h5><a href="tel:19778">Hotline 19778</a></h5>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp"
+                  data-wow-delay="800ms"
+                >
+                  <div class="footer-logo">
+                    <img src="assets/img/logo/logo.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom section-padding pb-0">
+            <div class="inner">
+              <div class="container">
+                <p class="text-center">
+                  All Rights Reserved Cleopatra Deluxe Mall, Developed and
+                  Designed by
+                  <a href="https://be-group.com/be_en/" target="_blank"
+                    >Be Group</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <!--<< All JS Plugins >>-->
+
+    <script src="./assets/js/jquery-3.7.1.min.js"></script>
+    <!--<< Jquery ui Js >>-->
+    <script src="./assets/js/jquery-ui.js"></script>
+    <!--<< Imagesloaded Js >>-->
+    <script src="./assets/js/imagesloaded.min.js"></script>
+    <!--<< Viewport Js >>-->
+    <script src="./assets/js/viewport.jquery.js"></script>
+    <!--<< Bootstrap Js >>-->
+    <script src="./assets/js/bootstrap.bundle.min.js"></script>
+    <!--<< Nice Select Js >>-->
+    <script src="./assets/js/jquery.nice-select.min.js"></script>
+    <!--<< Isotope Js >>-->
+    <script src="./assets/js/isotope.js"></script>
+    <!--<< Waypoints Js >>-->
+    <script src="./assets/js/jquery.waypoints.js"></script>
+    <!--<< Counterup Js >>-->
+    <script src="./assets/js/jquery.counterup.min.js"></script>
+    <!--<< appear Js >>-->
+    <script src="./assets/js/jquery.appear.min.js"></script>
+    <!--<< Ajax Js >>-->
+    <script src="./assets/js/ajax-mail.js"></script>
+    <!--<< Swiper Slider Js >>-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+    <!--<< Effect Carousel Js >>-->
+    <script src="./assets/js/effect-carousel.min.js"></script>
+    <!--<< MeanMenu Js >>-->
+    <script src="./assets/js/jquery.meanmenu.min.js"></script>
+    <!--<< Magnific Popup Js >>-->
+    <script src="./assets/js/jquery.magnific-popup.min.js"></script>
+    <!--<< Typed Js >>-->
+    <script src="./assets/js/typed.js"></script>
+    <!--<< Wow Animation Js >>-->
+    <script src="./assets/js/wow.min.js"></script>
+    <!--<< Gsap Min Js >>-->
+    <script src="./assets/js/gsap/gsap.min.js"></script>
+    <!--<< ScrollSmoother Js >>-->
+    <script src="./assets/js/gsap/ScrollSmoother.min.js"></script>
+    <!--<< ScrollToPlugin Js >>-->
+    <script src="./assets/js/gsap/ScrollToPlugin.min.js"></script>
+    <!--<< ScrollTrigger Js >>-->
+    <script src="./assets/js/gsap/ScrollTrigger.min.js"></script>
+    <!--<< SplitText Js >>-->
+    <script src="./assets/js/gsap/SplitText.min.js"></script>
+    <!--<< TweenMax Js >>-->
+    <script src="./assets/js/TweenMax.min.js"></script>
+
+    <!--<< Main.js >>-->
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
